@@ -98,3 +98,11 @@ function measures(kilometros) {
 }
 const finalMeasures = measures(50);
 console.log(finalMeasures);
+
+function hours (horas){
+  const finalHours = horas * 60;
+  return finalHours;
+}
+ const finalHours = hours(126)
+
+ console.log(finalHours + ' segundos')
