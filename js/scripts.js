@@ -182,3 +182,17 @@ function numberWhole(number) {
   }
 }
 numberWhole(26);
+
+function year (leap){
+  if (leap % 400 ===0) {
+    console.log( leap + ' es un año bisiesto');
+  }
+    else if ( leap % 100 ===0) {
+      console.log( leap + ' no es un año bisiesto')
+    }
+    else if ( leap % 4 ===0){
+      console.log ( leap + ' es un año bisiesto')
+    }
+  }
+
+  year(1932)
